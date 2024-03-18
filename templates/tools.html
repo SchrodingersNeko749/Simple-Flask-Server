@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tools</title>
+</head>
+<body>
+    <h1>Available Tools</h1>
+    <ul>
+        {% for route in routes %}
+        <li><a href='tools/{{ route }}'>{{ route }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
